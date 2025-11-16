@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="slider.css" />
+  
+</head>
+
+<body>
+  <!-- Swiper -->
+  <!--<h1 class="page-title">Student Project Showcase</h1>-->
+
+  <div class="swiper mySwiper">
+    <div class="parallax-bg"></div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="slide-image" style="background-image: url('images/slide1.png');"></div>
+        <div class="content-box">
+          <div class="title" data-swiper-parallax="-300">Jeopardy Buzzer System</div>
+          <div class="subtitle" data-swiper-parallax="-200">Arduino-Based Lockout Controller</div>
+          <div class="text" data-swiper-parallax="-100">
+            <p>
+              System Analysis and Design Capstone Project -Students engineered a hardware-based buzzer system for Jeopardy-style quiz games using Arduino microcontrollers programmed in a C/C++-derived language. The system uses an interrupt-driven lockout mechanism that disables all other buttons for five seconds when one is pressed, ensuring fair play. Students used CAT5 cabling for reliable multi-button communication and 3D-printed custom enclosures, integrating embedded programming with physical design.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slide-image" style="background-image: url('images/slide2.png');"></div>
+        <div class="content-box">
+          <div class="title" data-swiper-parallax="-300">Django Jeopardy Game System</div>
+          <div class="subtitle" data-swiper-parallax="-200">Web-Based Quiz Platform with Real-Time Hardware Integration</div>
+          <div class="text" data-swiper-parallax="-100">
+            <p>
+              System Analysis and Design Capstone Project -A full-stack Jeopardy-style quiz system built with the Django web framework. It includes an administrative interface that allows a game host to create and manage questions, categories, players, and scoring in real time. The system renders the game board dynamically in a browser and tracks player responses and point totals. It also integrates with custom Arduino-based buzzers, enabling hardware button presses to register live inputs into the game. The result is an interactive, network-based quiz platform that combines modern web development with physical computing.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slide-image" style="background-image: url('images/rss-news.gif');"></div>
+        <div class="content-box">
+          <div class="title" data-swiper-parallax="-300">RSS Feed Reader Streamlit App</div>
+          <div class="subtitle" data-swiper-parallax="-200">Python-Based News Aggregator Built from Partial Specifications</div>
+          <div class="text" data-swiper-parallax="-100">
+            <p>
+              As part of the CSC 221 Introduction to Problem Solving and Programming course, students develop a custom Streamlit web application that parses and displays RSS feeds of their choice. Working from partial design requirements, students must interpret specifications, implement Python code to fetch and parse XML-based RSS data, and dynamically render news content in an interactive dashboard. This assignment reinforces core programming concepts such as modular design, data parsing, API consumption, and user interface design—while giving students hands-on experience building real-world, data-driven applications.
+            </p>
+          </div>
+        </div>
+      </div>
+
+<div class="swiper-slide">
+        <div class="slide-image" style="background-image: url('images/itp140final.gif');"></div>
+        <div class="content-box">
+          <div class="title" data-swiper-parallax="-300">Client-Side Web Application Development</div>
+          <div class="subtitle" data-swiper-parallax="-200">JavaScript Foundations with Capstone Project Integration</div>
+          <div class="text" data-swiper-parallax="-100">
+            <p>
+              In ITP 140 Client-Side Scripting, students learn core JavaScript programming through a series of hands-on, browser-based projects. By the end of the course, students apply their skills in a final capstone project of their choosing, demonstrating mastery of client-side logic, DOM manipulation, and interactive UI design. Featured here is a student-built slot machine game written in vanilla JavaScript alongside a modern to-do list application developed in React, showcasing progression from fundamental scripting to component-based front-end development.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+<div class="swiper-slide">
+        <div class="slide-image" style="background-image: url('images/itp140final-cooking.gif');"></div>
+        <div class="content-box">
+          <div class="title" data-swiper-parallax="-300">Client-Side Web Application Development</div>
+          <div class="subtitle" data-swiper-parallax="-200">JavaScript Foundations with Capstone Project Integration</div>
+          <div class="text" data-swiper-parallax="-100">
+            <p>
+              In ITP 140 Client-Side Scripting, students build interactive web applications using vanilla JavaScript before advancing into modern frameworks. For their final capstone, one student developed a dynamic cooking instruction app that teaches users how to prepare recipes organized by method and difficulty level. The project demonstrates practical use of conditional logic, data structures, event handling, and responsive interface design—reflecting a full progression from core scripting skills to user-focused application development.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+<div class="swiper-slide">
+        <div class="slide-image" style="background-image: url('images/csc221-final-moonlight-game.gif');"></div>
+        <div class="content-box">
+          <div class="title" data-swiper-parallax="-300">Python Capstone Project Showcase</div>
+          <div class="subtitle" data-swiper-parallax="-200">Custom Game Development with Pygame in CSC 221</div>
+          <div class="text" data-swiper-parallax="-100">
+            <p>
+              In CSC 221 Introduction to Problem Solving and Programming, students learn the fundamentals of Python through hands-on labs, problem-solving exercises, and interactive sessions. For their final capstone project, each student proposes, builds, and presents a custom application to their instructor one-on-one. Featured here is a student-created game using Pygame, a popular open-source library designed for building 2D games in Python. The project incorporates custom graphics, event-driven programming, and game logic, demonstrating the student's mastery of Python concepts such as loops, conditionals, object-oriented design, and multimedia handling.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+    <div class="bottom-bar">
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo" />
+        
+      </div>
+      <div class="qr">
+        <img src="images/qr.png" alt="QR code" />
+       
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      speed: 600,
+      parallax: true,
+      autoplay: {
+        delay: 30000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>
